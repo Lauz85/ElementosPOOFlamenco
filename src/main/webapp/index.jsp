@@ -9,5 +9,6 @@
     </head>
     <body>
          <%=Contador.ContadorVisita.getContador () %>
+         
     <body>
 </html>
