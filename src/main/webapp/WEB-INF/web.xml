@@ -5,9 +5,25 @@
         <servlet-name>Conejo</servlet-name>
         <servlet-class>flamenco.cuentas.controladores.ServetCrearCuenta</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletRegistro</servlet-name>
+        <servlet-class>laura.registro.model.ServletRegistro</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>registro</servlet-name>
+        <servlet-class>laura.registro.model.ServetRegistro</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Conejo</servlet-name>
         <url-pattern>/Chapo.guzman</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletRegistro</servlet-name>
+        <url-pattern>/ServletRegistro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>registro</servlet-name>
+        <url-pattern>/registro</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
